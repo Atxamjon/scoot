@@ -1,0 +1,46 @@
+.container {
+  max-width: 1140px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+p {
+  color: #939CAA;
+}
+
+@media only screen and (max-width: 576px) {
+  .nav__li {
+    display: block;
+    display: none;
+  }
+
+  .wrapper__button {
+    display: none;
+  }
+
+
+}
+
+@media only screen and (max-width: 767px) {
+     .title__span {
+      text-align: center;
+      margin-left: 100px;
+     }
+     .content__paragrf{
+      text-align: center;
+     }
+     .content__button{
+      text-align: center;
+     }
+     .content__icon{
+      display: none;
+     }
+
+     .section__wrap{
+      width: 50%;
+      text-align: center;
+     }
+      .box__span{
+        text-align: center;
+      }
+}

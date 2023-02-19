@@ -1,0 +1,307 @@
+.container {
+  max-width: 1140px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+p {
+  color: #939CAA;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__ul {
+  display: flex;
+  gap: 40px;
+}
+
+.herro__title-span {
+  position: absolute;
+  color: #ffffff;
+  font-size: 50px;
+  margin-top: -125px;
+  margin-left: 90px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-left: 100px;
+}
+
+.nav__span {
+  color: #495567;
+  font-size: 50px;
+}
+
+.nav__button {
+  background: #FCB72B;
+  width: 180px;
+  height: 50px;
+  border: none;
+  color: #ffffff;
+  margin-right: 180px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.nav__button:hover {
+  background-color: #c49434;
+  transition: all 1s;
+}
+
+.nav__li-h4 {
+  color: #939CAA;
+}
+
+.nav__li-h4:hover {
+  transition: all 1s;
+  color: #212222;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.herro {
+  background-image: url(../images/bg-img/Bitmap.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+
+.wrap__content-img {
+  border-radius: 50%;
+}
+
+.section__wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  gap: 150px;
+  padding: 150px 90px 0px;
+}
+
+.wrap__icon-one {
+  position: absolute;
+  left: 0;
+}
+
+.span-title {
+  font-size: 50px;
+  color: #495567;
+}
+
+.wrap__button {
+  background: #FCB72B;
+  width: 180px;
+  height: 53px;
+  border: none;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.wrap__button:hover {
+  background-color: #c49434;
+  transition: all 1s;
+}
+
+.wrap__button-tree:hover {
+  background-color: #c49434;
+  transition: all 1s;
+}
+
+.wrap__content-img:hover {
+  transition: all 1s ease;
+  transform: scale(1.1);
+}
+
+.wrap__icon {
+  position: absolute;
+  right: 0;
+}
+
+.Our-values__control {
+  text-align: center;
+  margin-top: 180px;
+}
+
+.Our-values {
+  margin-left: 33px;
+}
+
+.control__avatar {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  margin-top: 50px;
+}
+
+.avatar__img {
+  border-radius: 50%;
+}
+
+.control__content-icons:hover {
+  transition: all 1s ease;
+  transform: scale(1.1);
+}
+
+.control__span {
+  color: #495567;
+  font-size: 50px;
+}
+
+.control__content-h2 {
+  color: #495567;
+}
+
+.control {
+  display: flex;
+  justify-content: center;
+  gap: 73px;
+  margin-top: -45px;
+}
+
+.main__pagination {
+  display: flex;
+  margin-left: 30px;
+  background-color: #F2F5F9;
+  height: 110px;
+  margin-bottom: 25px;
+}
+
+.main__inner {
+  margin-top: 120px;
+}
+
+.main__pagination-btn-h2 {
+  color: #495567;
+  padding: 0px 0px 0px 50px;
+}
+
+.main__pagination-btn-paragrf {
+  padding: 0px 0px 5px 50px;
+}
+
+.main__pagination-btn {
+  background: #FCB72B;
+  width: 180px;
+  height: 53px;
+  border: none;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.main__pagination-btn:hover {
+  transition: all 1s ease;
+  background-color: #c49434;
+}
+
+.main__pagination-button {
+  margin-left: 620px;
+  margin-top: 14px;
+}
+
+.main__pagination-inner-one {
+  width: 350px;
+  height: 60px;
+}
+
+.main__pagination-button-one {
+  width: 250px;
+  height: 60px;
+  margin-left: 530px;
+}
+
+.main__pagination-inner {
+  width: 250px;
+  height: 50px;
+}
+
+.wrap__content-icon {
+  position: absolute;
+  padding: 280px 0px 0px 450px;
+}
+
+.footer {
+  background-image: url(../images/bg-images/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 200px;
+  height: 400px;
+}
+
+.box__span {
+  font-size: 50px;
+  color: #fff;
+  margin-top: -40px;
+}
+
+.box__content-title {
+  display: flex;
+  padding: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box__icons {
+  display: flex;
+  gap: 15px;
+  margin-top: -15px;
+}
+
+.footer__link {
+  background: #333A44;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -40px;
+}
+
+.footer__span {
+  color: #fff;
+  font-size: 30px;
+  margin-left: 64px;
+}
+
+.footer__ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.icons__ul {
+  display: flex;
+  margin-right: 100px;
+  gap: 15px;
+}
+
+.hooter__ul-li-h4 {
+  color: #818893;
+}
+
+.hooter__ul-li-h4:hover {
+  transition: all 1s;
+  color: #ebf7f7;
+}
+
+.user {
+  padding: 3px 0px 0px 105px;
+  position: absolute;
+}
+.user a {
+  color: #747a7a;
+}/*# sourceMappingURL=main.css.map */

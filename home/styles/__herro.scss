@@ -1,0 +1,48 @@
+.herro {
+    background-image: linear-gradient(180deg, rgba(27, 62, 72, 0.9) 0%, rgba(72, 150, 228, 0.1) 100%, rgba(66, 164, 206, 0.4) 100%), url(../images/bg-images/moto-img.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    width: 100%;
+}
+
+.title__span {
+    font-size: 55px;
+    color: #fff;
+    display: inline-block;
+    padding: 90px;
+}
+
+.content__paragrf {
+    color: #fff;
+    opacity: 0.8;
+    margin-left: 180px;
+    margin-top: -50px;
+}
+
+.content__button {
+    margin-left: 180px;
+    background: #FCB72B;
+    width: 180px;
+    height: 53px;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.content__button:hover {
+    background-color: #c49434;
+    transition: all 1s;
+}
+
+.content__icon {
+    position: absolute;
+    margin-top: -20px;
+}
+
+.content__icons {
+    position: absolute;
+    margin-left: 610px;
+    margin-top: -56px;
+}

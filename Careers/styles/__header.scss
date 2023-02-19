@@ -1,0 +1,133 @@
+// header started
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__ul {
+    display: flex;
+    gap: 40px;
+}
+
+.herro__title-span {
+    position: absolute;
+    color: #ffffff;
+    font-size: 50px;
+    margin-top: -125px;
+    margin-left: 90px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 100px;
+}
+
+.nav__span {
+    color: #495567;
+    font-size: 50px;
+}
+
+.nav__button {
+    background: #FCB72B;
+    width: 180px;
+    height: 50px;
+    border: none;
+    color: #ffffff;
+    margin-right: 180px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.nav__button:hover {
+    background-color: #c49434;
+    transition: all 1s;
+}
+
+.nav__li-h4 {
+    color: #939CAA;
+}
+
+.nav__li-h4:hover {
+    transition: all 1s;
+    color: #212222;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.herro {
+    background-image: url(../images/bg-img/Bitmap.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+
+}
+
+.wrap__content-img {
+    border-radius: 50%;
+}
+
+// header fished
+
+// main started
+// main the first part began
+.section__wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    gap: 150px;
+    padding: 150px 90px 0px;
+}
+
+.wrap__icon-one {
+    position: absolute;
+    left: 0;
+}
+
+.span-title {
+    font-size: 50px;
+    color: #495567;
+}
+
+.wrap__button {
+    background: #FCB72B;
+    width: 180px;
+    height: 53px;
+    border: none;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 15px;
+
+}
+
+.wrap__button:hover {
+    background-color: #c49434;
+    transition: all 1s;
+}
+
+.wrap__button-tree:hover {
+    background-color: #c49434;
+    transition: all 1s;
+}
+
+.wrap__content-img:hover {
+    transition: all 1s ease;
+    transform: scale(1.1);
+}
+
+.wrap__icon {
+    position: absolute;
+    right: 0;
+}
+
+// main the first part is over
+// main finished
